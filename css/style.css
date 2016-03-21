@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	background-image: url('../Images/strawberry.jpg');
+	
+	background-size: cover;
+	color:#fff;
+	font-family: "Comic Sans MS"
+}
+.mastHead{
+	font-family: "Sarina",georgia,sans-serif;
+	font-size: 130%;
+}
+#foodName,#areaName{
+	display:none;
+}
+.hidden{
+	display:none;
+}
+.result {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 0 auto 1em auto;
+}
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+.userInput{
+	clear: both;
+}
+.mood{
+	margin-left: 3em;
+}
+.moodGetter{
+	padding: 4.9%;
+}
